@@ -15,77 +15,18 @@
      6 = 6th step in size scale
 
    Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+     -p = print
 */
 
-/*
- * For Hero/Marketing Titles
- *
- * These generally are too large for mobile
- * so be careful using them on smaller screens.
- * */
-
-.f-6,
-.f-headline {
-  font-size: var(--font-size-headline);
-}
-.f-5,
-.f-subheadline {
-  font-size: var(--font-size-subheadline);
-}
-
-
-/* Type Scale */
-
-
-.f1 { font-size: var(--font-size-1); }
-.f2 { font-size: var(--font-size-2); }
-.f3 { font-size: var(--font-size-3); }
-.f4 { font-size: var(--font-size-4); }
-.f5 { font-size: var(--font-size-5); }
-.f6 { font-size: var(--font-size-6); }
-
-@media (--breakpoint-not-small){
-  .f-6-ns,
-  .f-headline-ns { font-size: var(--font-size-headline); }
-  .f-5-ns,
-  .f-subheadline-ns { font-size: var(--font-size-subheadline); }
-  .f1-ns { font-size: var(--font-size-1); }
-  .f2-ns { font-size: var(--font-size-2); }
-  .f3-ns { font-size: var(--font-size-3); }
-  .f4-ns { font-size: var(--font-size-4); }
-  .f5-ns { font-size: var(--font-size-5); }
-  .f6-ns { font-size: var(--font-size-6); }
-}
-
-@media (--breakpoint-medium) {
-  .f-6-m,
-  .f-headline-m { font-size: var(--font-size-headline); }
-  .f-5-m,
-  .f-subheadline-m { font-size: var(--font-size-subheadline); }
-  .f1-m { font-size: var(--font-size-1); }
-  .f2-m { font-size: var(--font-size-2); }
-  .f3-m { font-size: var(--font-size-3); }
-  .f4-m { font-size: var(--font-size-4); }
-  .f5-m { font-size: var(--font-size-5); }
-  .f6-m { font-size: var(--font-size-6); }
-}
-
-@media (--breakpoint-large) {
-  .f-6-l,
-  .f-headline-l {
-    font-size: var(--font-size-headline);
-  }
-  .f-5-l,
-  .f-subheadline-l {
-    font-size: var(--font-size-subheadline);
-  }
-  .f1-l { font-size: var(--font-size-1); }
-  .f2-l { font-size: var(--font-size-2); }
-  .f3-l { font-size: var(--font-size-3); }
-  .f4-l { font-size: var(--font-size-4); }
-  .f5-l { font-size: var(--font-size-5); }
-  .f6-l { font-size: var(--font-size-6); }
+@media print{
+  .f-6-p,
+  .f-headline-p { font-size: var(--font-size-headline); }
+  .f-5-p,
+  .f-subheadline-p { font-size: var(--font-size-subheadline); }
+  .f1-p { font-size: var(--font-size-1); }
+  .f2-p { font-size: var(--font-size-2); }
+  .f3-p { font-size: var(--font-size-3); }
+  .f4-p { font-size: var(--font-size-4); }
+  .f5-p { font-size: var(--font-size-5); }
+  .f6-p { font-size: var(--font-size-6); }
 }

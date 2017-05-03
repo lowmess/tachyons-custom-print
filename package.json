@@ -1,10 +1,9 @@
 {
-  "name": "tachyons-custom",
+  "name": "tachyons-custom-print",
   "version": "4.5.5",
-  "description": "Functional CSS for humans",
+  "description": "Functional CSS for humans (and printers)",
   "author": "mrmrs",
-  "style": "css/tachyons.min.css",
-  "main": "src/tachyons.css",
+  "main": "src/tachyons-print.css",
   "files": [
     "css",
     "src"
@@ -20,13 +19,8 @@
     "performance"
   ],
   "license": "MIT",
-  "devDependencies": {
-    "copy-files": "^0.1.0",
-    "immutable-css-cli": "^1.1.1",
-    "normalize.css": "^5.0.0",
-    "tachyons-cli": "^1.0.9",
-    "tachyons-modules": "^1.1.8",
-    "watch": "^1.0.1"
+  "peerDependencies": {
+    "tachyons-custom": "^4.5.5"
   },
   "contributors": [
     {
@@ -36,14 +30,10 @@
     {
       "name": "john otander",
       "url": "http://johnotander.com"
+    },
+    {
+      "name": "alec lomas",
+      "url": "http://lowmess.com"
     }
-  ],
-  "scripts": {
-    "start": "npm run build:watch",
-    "mutations": "immutable-css src/tachyons.css --strict",
-    "build": "npm run build:css && npm run build:minify",
-    "build:css": "tachyons src/tachyons.css > css/tachyons.css",
-    "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
-    "build:watch": "watch 'npm run build' ./src/"
-  }
+  ]
 }
