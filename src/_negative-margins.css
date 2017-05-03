@@ -21,44 +21,44 @@
 
 @media print {
 
-  .na1-p { margin: -var(--spacing-extra-small); }
-  .na2-p { margin: -var(--spacing-small); }
-  .na3-p { margin: -var(--spacing-medium); }
-  .na4-p { margin: -var(--spacing-large); }
-  .na5-p { margin: -var(--spacing-extra-large); }
-  .na6-p { margin: -var(--spacing-extra-extra-large); }
-  .na7-p { margin: -var(--spacing-extra-extra-extra-large); }
+  .na1-p { margin: calc(var(--spacing-extra-small) * -1); }
+  .na2-p { margin: calc(var(--spacing-small) * -1); }
+  .na3-p { margin: calc(var(--spacing-medium) * -1); }
+  .na4-p { margin: calc(var(--spacing-large) * -1); }
+  .na5-p { margin: calc(var(--spacing-extra-large) * -1); }
+  .na6-p { margin: calc(var(--spacing-extra-extra-large) * -1); }
+  .na7-p { margin: calc(var(--spacing-extra-extra-extra-large) * -1); }
 
-  .nl1-p { margin-left: -var(--spacing-extra-small); }
-  .nl2-p { margin-left: -var(--spacing-small); }
-  .nl3-p { margin-left: -var(--spacing-medium); }
-  .nl4-p { margin-left: -var(--spacing-large); }
-  .nl5-p { margin-left: -var(--spacing-extra-large); }
-  .nl6-p { margin-left: -var(--spacing-extra-extra-large); }
-  .nl7-p { margin-left: -var(--spacing-extra-extra-extra-large); }
+  .nl1-p { margin-left: calc(var(--spacing-extra-small) * -1); }
+  .nl2-p { margin-left: calc(var(--spacing-small) * -1); }
+  .nl3-p { margin-left: calc(var(--spacing-medium) * -1); }
+  .nl4-p { margin-left: calc(var(--spacing-large) * -1); }
+  .nl5-p { margin-left: calc(var(--spacing-extra-large) * -1); }
+  .nl6-p { margin-left: calc(var(--spacing-extra-extra-large) * -1); }
+  .nl7-p { margin-left: calc(var(--spacing-extra-extra-extra-large) * -1); }
 
-  .nr1-p { margin-right: -var(--spacing-extra-small); }
-  .nr2-p { margin-right: -var(--spacing-small); }
-  .nr3-p { margin-right: -var(--spacing-medium); }
-  .nr4-p { margin-right: -var(--spacing-large); }
-  .nr5-p { margin-right: -var(--spacing-extra-large); }
-  .nr6-p { margin-right: -var(--spacing-extra-extra-large); }
-  .nr7-p { margin-right: -var(--spacing-extra-extra-extra-large); }
+  .nr1-p { margin-right: calc(var(--spacing-extra-small) * -1); }
+  .nr2-p { margin-right: calc(var(--spacing-small) * -1); }
+  .nr3-p { margin-right: calc(var(--spacing-medium) * -1); }
+  .nr4-p { margin-right: calc(var(--spacing-large) * -1); }
+  .nr5-p { margin-right: calc(var(--spacing-extra-large) * -1); }
+  .nr6-p { margin-right: calc(var(--spacing-extra-extra-large) * -1); }
+  .nr7-p { margin-right: calc(var(--spacing-extra-extra-extra-large) * -1); }
 
-  .nb1-p { margin-bottom: -var(--spacing-extra-small); }
-  .nb2-p { margin-bottom: -var(--spacing-small); }
-  .nb3-p { margin-bottom: -var(--spacing-medium); }
-  .nb4-p { margin-bottom: -var(--spacing-large); }
-  .nb5-p { margin-bottom: -var(--spacing-extra-large); }
-  .nb6-p { margin-bottom: -var(--spacing-extra-extra-large); }
-  .nb7-p { margin-bottom: -var(--spacing-extra-extra-extra-large); }
+  .nb1-p { margin-bottom: calc(var(--spacing-extra-small) * -1); }
+  .nb2-p { margin-bottom: calc(var(--spacing-small) * -1); }
+  .nb3-p { margin-bottom: calc(var(--spacing-medium) * -1); }
+  .nb4-p { margin-bottom: calc(var(--spacing-large) * -1); }
+  .nb5-p { margin-bottom: calc(var(--spacing-extra-large) * -1); }
+  .nb6-p { margin-bottom: calc(var(--spacing-extra-extra-large) * -1); }
+  .nb7-p { margin-bottom: calc(var(--spacing-extra-extra-extra-large) * -1); }
 
-  .nt1-p { margin-top: -var(--spacing-extra-small); }
-  .nt2-p { margin-top: -var(--spacing-small); }
-  .nt3-p { margin-top: -var(--spacing-medium); }
-  .nt4-p { margin-top: -var(--spacing-large); }
-  .nt5-p { margin-top: -var(--spacing-extra-large); }
-  .nt6-p { margin-top: -var(--spacing-extra-extra-large); }
-  .nt7-p { margin-top: -var(--spacing-extra-extra-extra-large); }
+  .nt1-p { margin-top: calc(var(--spacing-extra-small) * -1); }
+  .nt2-p { margin-top: calc(var(--spacing-small) * -1); }
+  .nt3-p { margin-top: calc(var(--spacing-medium) * -1); }
+  .nt4-p { margin-top: calc(var(--spacing-large) * -1); }
+  .nt5-p { margin-top: calc(var(--spacing-extra-large) * -1); }
+  .nt6-p { margin-top: calc(var(--spacing-extra-extra-large) * -1); }
+  .nt7-p { margin-top: calc(var(--spacing-extra-extra-extra-large) * -1); }
 
 }
