@@ -20,7 +20,7 @@
   ],
   "license": "MIT",
   "peerDependencies": {
-    "tachyons-custom": "^4.5.5"
+    "tachyons-custom": "^4.6.0"
   },
   "contributors": [
     {
